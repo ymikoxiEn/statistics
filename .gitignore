@@ -1,8 +1,16 @@
+# virtual environments
 venv/
+.env/
+
+# system files
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
 .DS_Store
 
+# Streamlit app state and logs
+.streamlit/
+
+# optional: output images or auto-generated plots
+stats/
+*.png
+*.svg
